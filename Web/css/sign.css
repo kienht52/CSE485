@@ -1,0 +1,91 @@
+body
+{
+    background-image: url("../img/bgi-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+form
+{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    background-color: #1e2833;
+    width: 350px;
+    border: 2px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.form .icon
+{
+    color: rgb(14, 81, 126);
+    font-size: 70px;
+    padding: 50px;
+}
+
+#input
+{
+    background-color: #1e2833;
+    border: 0;
+    width: 300px;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    margin-left: 25px;
+    border-bottom: 1px solid #434a52;
+    color: white;
+}
+
+.form .gender
+{
+    color: white;
+    padding: 5px;
+    justify-content: center;
+}
+
+.btn-primary
+{
+    margin-left: 50px;
+    width: 250px;
+    background-color: #214a80;
+    border: none;
+    border-radius: 5px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 30px;
+    text-shadow: none;
+    outline: none;
+}
+
+.btn-primary:hover
+{
+    background-color: #214a80;
+    outline: none;
+}
+
+#row
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#row a
+{
+    color: rgb(159,181,203);
+}
+
+#row a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+#row
+{
+    font-size: 14px;
+}
